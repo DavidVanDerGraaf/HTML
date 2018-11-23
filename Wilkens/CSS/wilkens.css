@@ -1,0 +1,58 @@
+body {
+    font-family:"Arial", "sans-serif";
+}
+
+nav {
+    background-color:black;
+    padding:10px;
+}
+
+nav a {
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    border-right:2px solid white;
+    padding-right:5px;
+}
+
+div.wrapper{
+    width:1000px;
+    margin:auto;
+}
+
+article {
+    float:left;
+    width:485px;
+    margin-right:30px;
+    margin-top:30px;
+}
+
+table {
+    width:485px;
+    border:1px solid black;
+    border-collapse:collapse;
+    margin-top:30px;
+}
+
+td {
+    padding:15px;
+    border:1px solid black;
+}
+
+td.groen {
+    background-color:#99ff99;
+}
+
+td.blauw {
+    background-color:#99ffff;
+}
+
+#footer {
+     position:fixed;
+     left:0;
+     bottom:0;
+     width:100%;
+     background-color:black;
+     color:white;
+     text-align:center;
+}
