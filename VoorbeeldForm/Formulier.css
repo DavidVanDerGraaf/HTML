@@ -1,0 +1,36 @@
+form {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+
+h3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 10px;
+}
+.vraagenantwoord {
+    display: flex;
+}
+
+.vraag {
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.radio {
+    margin-right: 5px;
+}
+
+.geslacht {
+    margin-right: 20px;
+}
+
+#kolom3 {
+    width: 300px;
+}
+
+.knoppen {
+    float: right;
+}

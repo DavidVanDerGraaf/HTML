@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Formulier.css">
+    <title>Inlogformulier</title>
+    <meta charset="UTF-8">
+</head>
+<h3>Een echte formulier</h3>
+<body>
+<form action="http://www.savatarian.com/html5/form.php" method="get">
+    <div id="kolom1">
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="voornaam">Voornaam</label>
+            </div>
+            <div class="antwoord">
+                <input type="text" name="voornaam">
+            </div>
+        </div>
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="tussenvoegsel">Tussenvoegsel</label>
+            </div>
+            <div class="antwoord">
+                <input type="text" name="tussenvoegsel">
+            </div>
+        </div>
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="achternaam">Achternaam</label>
+            </div>
+            <div class="antwoord">
+                <input type="text" name="achternaam">
+            </div>
+        </div>
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="geslacht">Geslacht</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="m" name="gender">
+            </div>
+            <div class="geslacht">
+                <label form="man">Man</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="f" name="gender">
+            </div>
+            <div class="geslacht">
+                <label form="vrouw">Vrouw</label>
+            </div>
+        </div>
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="oogkleur">Oogkleur</label>
+            </div>
+            <div class="antwoord">
+                <select name="oogkleur">
+                    <option value="bruin">Bruin</option>
+                    <option value="hazelnoot">Hazelnoot</option>
+                    <option value="amber/geel">Amber/Geel</option>
+                    <option value="groen">Groen</option>
+                    <option value="blauw">Blauw</option>
+                </select>
+            </div>
+        </div>
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="geboortedatum">Geboortedatum</label>
+            </div>
+            <div class="antwoord">
+                <input type="date" name="geboortedatum">
+            </div>
+        </div>
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="omschrijving">Omschrijving</label>
+            </div>
+            <div class="antwoord">
+                <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+        </div>
+    </div>
+    <div id="kolom2">
+        <div class="vraagenantwoord">
+            <div class="vraag">
+                <label form="eten">Lekker eten</label>
+            </div>
+            <div class="antwoord">
+                <input type="checkbox" name="eten" value="sperciebonen"><a>Sperciebonen</a><br>
+                <input type="checkbox" name="eten" value="aardappelen"><a>Aardappelen</a><br>
+                <input type="checkbox" name="eten" value="hamburger"><a>Hamburger</a>
+            </div>
+        </div>
+    </div>
+    <div id="legekolom">
+    </div>
+    <div id="kolom3">
+        <div class="knoppen">
+            <input type="reset" name="reset" value="Annuleer">
+            <input type="submit" name="submit" value="Inleveren">
+        </div>
+    </div>
+</form>
+</body>
+</html>
